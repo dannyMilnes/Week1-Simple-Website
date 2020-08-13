@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #363636;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 5rem;
+    color: #000001
+}
+
+h2, h3, p, a {
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+   font-family: 'Rubik Mono One', sans-serif;
+   font-size: 2rem;
+   padding-bottom: .5em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1rem;
+    padding-bottom: 1em;
+}
+
+.background-container {
+    position: relative;
+}
+
+.main-background {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    object-fit: cover;
+    /* opacity: .9; */
+}
+
+.main-logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 27em;
+    margin-top: 8em;
+}
+
+.descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.git-workflow, .unix-shell {
+    margin: 4.5em;
+    max-width: 29em;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 3em;
+    /* top: 25%; */
+    width: 100%;
+}
+
+.descriptions-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4.5em;
+}
+
+.info {
+    display: flex;
+    width: 50em;
+    flex-direction: column
+}
