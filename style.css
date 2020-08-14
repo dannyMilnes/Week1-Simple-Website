@@ -33,25 +33,18 @@ p {
 }
 
 .background-container {
-    /* position: relative; */
     background-image: url(./Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
 }
 
-.main-background {
-    width: 100%;
-    height: 70vh;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.logo-container {
+.logo-container, .title-container {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .main-logo {
@@ -73,13 +66,17 @@ p {
     max-width: 29em;
 }
 
+ @media screen and (max-width: 600px) {
+        .git-workflow, .unix-shell {
+            margin: 4.5em 1.5em 4.5em 1.5em;
+    }
+ }
+
 .title {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    margin-top: 3em;
-    /* top: 25%; */
-    width: 100%;
+    display: flex;
+    height: 27em;
+    justify-content: center;
+    align-items: center;
 }
 
 .descriptions-sub {
