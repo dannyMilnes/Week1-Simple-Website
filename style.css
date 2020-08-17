@@ -68,7 +68,7 @@ p {
 
  @media screen and (max-width: 600px) {
         .git-workflow, .unix-shell {
-            margin: 4.5em 1.5em 4.5em 1.5em;
+            margin: 4.5em 1.5em;
     }
  }
 
